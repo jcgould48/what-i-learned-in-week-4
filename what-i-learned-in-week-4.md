@@ -1,5 +1,6 @@
 What I learned in week 4 
 ### Monday
+****
 Boleans
 
 Deals with true false'
@@ -24,9 +25,93 @@ Quokka
 3. npm test
 ``` 
 
-### Tuesday
+For inequality ranges format is important. 
 
-```javascript function hello(name) {
+Make sure you chose relevant and concise names for parameters so its easier to understand the code later on.
+
+```javascript 
+function isInDanger(grade) {
+return grade>=60 && grade<=71;
+}
+```
+
+### Tuesday
+****
+Make sure you chose relevant and concise names for parameters so its easier to understand the code later on.    
+
+```javascript 
+function hello(name) {
     return 'Hello' + name;
 }
 ```
+
+**If else functions**
+
+These functions allow you to add alternatives to your code.
+
+```javascript
+function grader(score) {
+    let response = ' ';
+    
+    if(score >= 90){
+        response = response + ' You got an A.';
+    }
+    else if(score >= 80){
+        response = response + ' You got an B.';}
+
+    return response;
+}
+```
+Exercise to practice if else:
+
+FIZZBUZZ
+
+If divisable by:
+
+3->FIZZ
+
+5->Buzz
+
+3&5->FizzBuzz
+
+Neither->Num
+
+### Wednesday
+
+****
+**Unary Operator** 
+const userInput= true;
+console.log(typeof userInput); 
+
+!true
+
+Binary operator
+===
+%
+!===
+||
+&&&
+
+The ternary operator    
+
+```javascript
+
+const greeting = 'hello';
+const response = (greeting === hello) ? 'hello back': 'salutations'
+
+//same as 
+
+let response = ' '
+if (greeting === 'hello'){
+response = 'hello back';
+} else {
+  response = 'salutations';
+}
+```
+
+Incorrect Side effects - Shouldn't have '=' after the ? because it is not supposed to behave like a function
+
+let height = 70;
+let answer= ' ':
+Correct -> answer = (height > 72) ? 'You are tall' : 'You are short'; 
+Incorrect-> (height > 72) ? answer = 'You are tall' : answer = 'You are short';

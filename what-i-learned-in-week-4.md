@@ -115,3 +115,8 @@ let height = 70;
 let answer= ' ':
 Correct -> answer = (height > 72) ? 'You are tall' : 'You are short'; 
 Incorrect-> (height > 72) ? answer = 'You are tall' : answer = 'You are short';
+
+### Thursday
+
+Switch statements are alternatives to if else when only using '==='
+

@@ -120,3 +120,12 @@ Incorrect-> (height > 72) ? answer = 'You are tall' : answer = 'You are short';
 
 Switch statements are alternatives to if else when only using '==='
 
+
+process.argv[position in argument]
+It is important to make sure the position that will be called up in the argument.
+
+Made application that works on node using the console.log
+
+
+
+
